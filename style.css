@@ -1,0 +1,228 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f0f5f1;
+  color: #333333;
+  padding: 80px;
+}
+
+/* Cabeçalho com degradê verde */
+header {
+  background: linear-gradient(90deg, #4caf50, #2e7d32);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+  color: white;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #c8e6c9;
+}
+
+/* Seções com cores diferentes */
+section {
+  padding: 30px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+}
+
+#sobre, #producao {
+  background: #ffffff;
+}
+
+#comunidade, #tecnologia {
+  background: #f9f9f9;
+}
+
+section h2 {
+  color: #2d572c;
+  font-size: 1.875em;
+  margin-bottom: 30px;
+}
+
+section p {
+  font-size: 1.125em;
+  text-align: center;
+}
+
+section img {
+  margin-bottom: 50px;
+}
+
+.imagem-texto {
+  display: flex;
+  align-items: center;  
+  gap: 20px;            
+}
+
+.imagem-texto img {
+  width: 50%;         
+  border-radius: 20px;
+}
+
+.imagem-texto p {
+  flex: 1;              
+}
+
+.vinicius {
+  display: flex;  
+  gap: 20px;
+}
+
+.vinicius img {
+  width: 23px;         
+  margin-top: 3px;  
+}
+
+.vinicius p {
+  flex: 1;
+  text-align: left;
+  color: #2d572c;
+}
+
+.acessibilidade {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.acessibilidade button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.acessibilidade button:hover {
+  background: #388e3c;
+}
+
+
+/* Rodapé branco */
+footer {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+/* Modo Alto Contraste */
+.alto-contraste {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.alto-contraste header {
+  background: #111 !important;
+  color: #ff0 !important;
+}
+
+.alto-contraste nav a {
+  color: #ff0 !important;
+}
+
+.alto-contraste nav a:hover {
+  color: #ff0 !important; 
+}
+
+.alto-contraste h2 {
+  color: #ff0 !important;
+}
+.alto-contraste section {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+.alto-contraste footer {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.alto-contraste .acessibilidade button {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.alto-contraste .vinicius img {
+  color: #000 !important; 
+  background: #fff !important;
+}
+
+.alto-contraste .vinicius p {
+  color: #fff !important; 
+}
+
+/* Ajustes para telas menores (celulares) */
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px; 
+  }
+
+  header h1 {
+    font-size: 2em; 
+  }
+
+  nav ul {
+    flex-direction: column; 
+    gap: 20px;
+  }
+
+  .imagem-texto {
+    flex-direction: column; 
+  }
+
+  .imagem-texto img {
+    width: 100%; 
+  }
+
+  section h2 {
+    font-size: 1,5em; 
+  }
+
+  section p {
+    font-size: 1em; 
+  }
+
+  .acessibilidade {
+    flex-direction: column; 
+    gap: 10px;
+  }
+}
