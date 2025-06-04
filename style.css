@@ -105,7 +105,7 @@ section img {
 }
 
 .email img {
-  width: 23px;         
+  width: 1.457em;         
   margin-top: 3px;  
 }
 
@@ -115,12 +115,14 @@ section img {
   color: #2d572c;
 }
 
+
 .acessibilidade {
   display: flex;
   gap: 10px;
   margin: 20px 0;
 }
 
+/* Botões acessibilidade */
 .acessibilidade button {
   padding: 10px 15px;
   font-size: 16px;
@@ -227,4 +229,11 @@ footer {
     flex-direction: column; 
     gap: 10px;
   }
+}
+
+/* Link para próxima página */
+.link-pagina {
+  font-size: 1.1em;
+  text-align: left;
+  padding: 35px;
 }
