@@ -58,7 +58,7 @@ section {
   border-radius: 20px;
 }
 
-#sobre, #producao {
+#sobre, #cultivo {
   background: #ffffff;
 }
 
@@ -68,13 +68,15 @@ section {
 
 section h2 {
   color: #2d572c;
-  font-size: 1.875em;
+  font-size: 1.9em;
   margin-bottom: 30px;
+  text-align: left;
+  padding-left: 30px;
 }
 
 section p {
-  font-size: 1.125em;
-  text-align: center;
+  font-size: 1.2em;
+  text-align: left;
 }
 
 section img {
@@ -84,11 +86,12 @@ section img {
 .imagem-texto {
   display: flex;
   align-items: center;  
-  gap: 20px;            
+  gap: 70px;      
+  padding: 35px;      
 }
 
 .imagem-texto img {
-  width: 50%;         
+  width: 30%;         
   border-radius: 20px;
 }
 
@@ -96,17 +99,17 @@ section img {
   flex: 1;              
 }
 
-.vinicius {
+.email {
   display: flex;  
   gap: 20px;
 }
 
-.vinicius img {
+.email img {
   width: 23px;         
   margin-top: 3px;  
 }
 
-.vinicius p {
+.email p {
   flex: 1;
   text-align: left;
   color: #2d572c;
@@ -132,12 +135,11 @@ section img {
   background: #388e3c;
 }
 
-
 /* Rodapé branco */
 footer {
   background: #ffffff;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   margin-top: 30px;
   color: #333;
@@ -176,16 +178,16 @@ footer {
 }
 
 .alto-contraste .acessibilidade button {
-  background: #fff !important;
+  background: #ff0 !important;
   color: #000 !important;
 }
 
-.alto-contraste .vinicius img {
+.alto-contraste .email img {
   color: #000 !important; 
   background: #fff !important;
 }
 
-.alto-contraste .vinicius p {
+.alto-contraste .email p {
   color: #fff !important; 
 }
 
