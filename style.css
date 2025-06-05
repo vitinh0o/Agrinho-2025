@@ -44,7 +44,7 @@ nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
 
 nav a:hover {
@@ -59,7 +59,7 @@ section {
 }
 
 #sobre, #cultivo {
-  background: #ffffff;
+  background: #fff;
 }
 
 #comunidade, #tecnologia {
@@ -163,7 +163,7 @@ footer {
 }
 
 .alto-contraste nav a:hover {
-  color: #ff0 !important; 
+  color: rgba(255, 255, 0, 0.514) !important; 
 }
 
 .alto-contraste h2 {
@@ -191,6 +191,15 @@ footer {
 
 .alto-contraste .email p {
   color: #fff !important; 
+}
+
+.alto-contraste .botao-pagina {
+  background: #ff0 !important;
+  color: #000 !important;
+}
+
+.alto-contraste .botao-pagina:hover {
+  background-color: rgba(255, 255, 0, 0.514) !important;
 }
 
 /* Ajustes para telas menores (celulares) */
@@ -237,4 +246,21 @@ footer {
   margin-bottom: 30px;
   text-align: left;
   padding-left: 30px;
+}
+
+.botao-pagina {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-left: 35px;
+  background-color: #497948;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.5s ease; /* suaviza a mudança */
+}
+
+/* Efeito quando passar o mouse */
+.botao-pagina:hover {
+  background-color: #45a049; /* verde mais escuro */
 }
