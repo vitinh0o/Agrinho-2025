@@ -32,6 +32,19 @@ header h1 {
   margin-bottom: 30px;
 }
 
+.img-backgroud {
+  background-image: url('park-ao-lado-da-cidade-ao-amanhecer.jpg');
+  background-size: cover;  
+  backgroud-position: center;
+  display: flex;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+  color: white;
+  
+}
+
 nav ul {
   list-style: none;
   display: flex;
