@@ -33,31 +33,31 @@ body {
 }
 
 /* Cabeçalho com imagem */
-.img-backgroud {
-  background: url('imagens/fundo.png') no-repeat center center;
-  background-size: cover;
-  padding: 30px; /* mantém o espaçamento interno */
+.imagem-cabeçalho {
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  border-radius: 20px;
   text-align: center;
   color: white;
-  position: relative;
-  border-radius: 20px;
-  }
+  margin-bottom: 80px;
+}
 
-.img-backgroud::before {
-  content: "";
+.bg-header {
   position: absolute;
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* escurece o fundo */
-  z-index: 1;
-  pointer-events: none;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.4;
   border-radius: 20px;
 }
 
-.img-backgroud h1 {
+.imagem-cabeçalho h1,
+.imagem-cabeçalho .acessibilidade {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 nav ul {
