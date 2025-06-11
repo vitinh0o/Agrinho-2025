@@ -36,17 +36,14 @@ body {
 .img-backgroud {
   background: url('imagens/fundo.png') no-repeat center center;
   background-size: cover;
-  height: 250px; /* você pode ajustar a altura */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 30px; /* mantém o espaçamento interno */
   text-align: center;
   color: white;
   position: relative;
   border-radius: 20px;
-}
+  }
 
-.header-com-imagem::before {
+.img-backgroud::before {
   content: "";
   position: absolute;
   top: 0; left: 0;
@@ -58,7 +55,7 @@ body {
   border-radius: 20px;
 }
 
-.header-com-imagem h1 {
+.img-backgroud h1 {
   position: relative;
   z-index: 2;
 }
