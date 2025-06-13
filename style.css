@@ -30,7 +30,7 @@ body {
   }
 
   .imagem-cabeçalho.imagem-cab2 {
-  background: url('img/park-ao-lado-da-cidade-ao-amanhecer.jpg') no-repeat center center;
+  background: url('img/comunidade.jpg') no-repeat center center;
   background-size: cover;
   padding: 30px; 
   text-align: center;
@@ -41,7 +41,7 @@ body {
 }
 
 .imagem-cabeçalho.imagem-cab3 {
-  background-image: url('img/park-ao-lado-da-cidade-ao-amanhecer.jpg')no-repeat center center;
+  background: url('img/horta-comunitaria.jpg') no-repeat center center;
   background-size: cover;
   padding: 30px; 
   text-align: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .imagem-cabeçalho.imagem-cab4 {
-  background-image: url('img/park-ao-lado-da-cidade-ao-amanhecer.jpg')no-repeat center center;
+  background: url('img/moinhos.jpg')no-repeat center center;
   background-size: cover;
   padding: 30px; 
   text-align: center;
@@ -125,7 +125,7 @@ section {
   border-radius: 20px;
 }
 
-#sobre, #cultivo {
+#sobre, #social {
   background: #fff;
 }
 
@@ -142,7 +142,7 @@ section h2 {
 }
 
 section p {
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: left;
 }
 
